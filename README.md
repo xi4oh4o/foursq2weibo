@@ -3,7 +3,7 @@ foursq2weibo
 
 同步4sq签到至微博
 
-> 程序由Sinatra编写数据可保存与Postgres或SQLite3
+> 程序由Sinatra编写 数据可保存于Postgres或SQLite3
 
 如何运行
 ========
