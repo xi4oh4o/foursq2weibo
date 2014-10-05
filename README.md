@@ -14,8 +14,9 @@ foursq2weibo
 
 #### 回调地址
 ============
-* Foursquare为`http://your_host.com/redirect_uri` Weibo为`http://your_host.com/wei_redirect`
-* Foursquare Push地址为`https://your_host.com/handle_push`
+* Foursquare: `http://your_host.com/redirect_uri`
+* Weibo: `http://your_host.com/wei_redirect`
+* Foursquare Push: `https://your_host.com/handle_push`
 
 #### 如何部署在Heroku
 =====================
