@@ -1,0 +1,8 @@
+Foursquare:
+  client_id: YOUR_CLIENT_ID
+  client_secret: YOUR_CLIENT_SECRET
+  push_secret: YOUR_PUSH_SECRET
+
+Weibo:
+  key: YOUR_KEYS
+  secret: YOUR_SECRET
