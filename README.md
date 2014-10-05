@@ -13,15 +13,15 @@ foursq2weibo
 3. 执行`rake db:migrate` 建立表结构
 4. 执行 `ruby app.rb` 访问 `http://localhost:4567`
 
-####回调地址####
-============
+回调地址
+========
 
 * Foursquare: `http://your_host.com/redirect_uri`
 * Weibo: `http://your_host.com/wei_redirect`
 * Foursquare Push: `https://your_host.com/handle_push`
 
-#### 如何部署在Heroku
-=====================
+如何部署在Heroku
+================
 
 1. `cd foursq2weibo`
 2. `heroku git:remote -a foursqtoweibo`
