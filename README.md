@@ -13,7 +13,7 @@ foursq2weibo
 3. 执行`rake db:migrate` 建立表结构
 4. 执行 `ruby app.rb` 访问 `http://localhost:4567`
 
-#### 回调地址
+####回调地址
 ============
 
 * Foursquare: `http://your_host.com/redirect_uri`
