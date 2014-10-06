@@ -4,7 +4,7 @@
 <h2><span class="glyphicon glyphicon-globe"></span> 授权管理</h2>
 <br>
   <p>
-    <% if @auth.foursquare_token %>
+    <% unless @auth.foursquare_token.to_s.empty? %>
     <span><span class="glyphicon glyphicon-thumbs-up"></span> Foursquare 授权已完成</span>
     <% else %>
     <a href="https://foursquare.com/oauth2/authenticate?client_id=
@@ -15,7 +15,7 @@ code&redirect_uri=http://foursqtoweibo.herokuapp.com/redirect_uri">
     <% end %>
   </p>
   <p>
-    <% if @auth.weibo_token %>
+    <% unless @auth.weibo_token.to_s.empty? %>
     <span><span class="glyphicon glyphicon-thumbs-up"></span> Weibo 授权已完成</span>
     <% else %>
     <a href="https://api.weibo.com/oauth2/authorize?client_id=
